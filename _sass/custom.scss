@@ -1,3 +1,27 @@
 /*- Custom style -*/
 
 // -- Put custom style under this point -- //
+
+#header {
+  background: green;
+  display: table;
+  width: 100%;
+}
+
+#logo {
+  display: table-cell;
+  line-height: 0;
+  width: 20%;
+}
+
+#logo img {
+  width: 100%;
+  height: auto;
+}
+
+#restofheader {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  padding-left: 30px;
+}
