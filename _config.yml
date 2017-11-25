@@ -1,11 +1,11 @@
 # Site settings
-title: Emerald | A simple Jekyll blog
-description: "A minimal blog template, build with Jekyll."
-url: "http://www.jacoporabolini.com/emerald"
+title: GIS blog
+description: "GIS blof"
+url: ""
 author:
-  name: "Jacopo Rabolini"
-  email: "hello@jacoporabolini.com"
-  url: "http://www.jacoporabolini.com"
+  name: "Max Kliver"
+  email: "dh0m0ch@gmail.com"
+  url: ""
 
 # Build settings
 baseurl: /blog/ # Change this to your relative path (ex: /blog/), or leave just a /
@@ -34,5 +34,5 @@ version: "1.1.0"
 
 # Options
 custom_header: true
-custom_nav_footer: false
+custom_nav_footer: true
 reverse: false
