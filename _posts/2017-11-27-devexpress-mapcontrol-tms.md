@@ -65,7 +65,7 @@ sealed public class TMSProvider : MapDataProviderBase
 
 {% endhighlight %}
 
-Second source class:
+At second source class:
 {% highlight c# linenos %}
 
 sealed public class TMSSource : MapTileSourceBase
