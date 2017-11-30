@@ -38,4 +38,4 @@ custom_nav_footer: true
 reverse: false
 
 plugins: 
-    - jekyll-sitemap
+  - jekyll-sitemap
