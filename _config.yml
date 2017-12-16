@@ -1,6 +1,6 @@
 # Site settings
 title: GIS blog
-description: "GIS blof"
+description: "GIS blog"
 url: ""
 author:
   name: "Max Kliver"
@@ -36,6 +36,3 @@ version: "1.1.0"
 custom_header: true
 custom_nav_footer: true
 reverse: false
-
-plugins: 
-  - jekyll-sitemap
