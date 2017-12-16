@@ -1,5 +1,5 @@
 ---
-title: SLD: Graphic fills
+title: SLD Graphic fills
 ---
 This style contains fills with two size different graphics. 
 I'd founded 
