@@ -150,7 +150,8 @@ Alias /wmsmap "/ms4w/Apache/cgi-bin/mapserv.exe"
 </Location>
 {% endhighlight %}
 
-И сохраняем в _\ms4w\httpd.d\_. Открываем _\ms4w\Apache\conf\httpd.conf_, находим строку 
+И сохраняем в _\ms4w\httpd.d\_.
+Открываем _\ms4w\Apache\conf\httpd.conf_, находим строку 
 
 {% highlight xml %}
 # parse MS4W apache conf files
@@ -159,7 +160,7 @@ include "D:/dev/Mapserver/ms4w/httpd.d/httpd_*.conf"
 
 И удаляем маску файла, так что бы подсасывались все conf файлы из этой папки. Основная идея подхода, в том что бы для каждого map файла
 написать по конфигу и у все будет своя url без параметров.
-Изначально хотел работать через теги <Directory>, как и указано в документации Mapserver, но там возникла непонятная проблема с 
+Изначально хотел работать через теги _<Directory>_, как и указано в документации Mapserver, но там возникла непонятная проблема с 
 правами на папку /tmp/.
 
 После этого урла до wms стала http://localhost:8081/wmsmap, что уже по человечески. 
