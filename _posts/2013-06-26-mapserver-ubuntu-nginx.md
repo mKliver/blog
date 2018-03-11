@@ -153,6 +153,7 @@ Create map
 
 Now lets do our first map. I take some example data files here: http://gis-lab.info/other/mapserver-begin-example.zip. 
 Extract it everywhere you want, for example here /home/my-user/example.
+
 MapServer have no user friendly administration panel like Geoserver's one.
 To make a map we need to create *.map files that contains services, map, layers, styles, etc. 
 In zip already contain some. We'll use simple one - _polt.map_:
@@ -199,7 +200,7 @@ And here is expected result:
 Conclusion
 ---------------------
 
-Thanks for [Yodeski Rodríguez Álvarez](https://github.com/yodeski) for nginx and FasrCGI configuration files.
+Thanks for [Yodeski Rodríguez Álvarez](https://github.com/yodeski) for nginx and FastCGI configuration files.
 Map creating part have taken from [gis-lab.ru](http://gis-lab.info/qa/mapserver-begin.html).
 
 
