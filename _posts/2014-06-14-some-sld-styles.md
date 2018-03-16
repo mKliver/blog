@@ -4,7 +4,8 @@ title: Some SLD styles
 
 Here is some SLD examples what i'd used.
 
-###Empty star with default marks
+Empty star with default marks
+---------------------
 
 ![Empty star](/blog/img/2014-06-14/empty-star.jpg "Empty star")
 
@@ -47,7 +48,8 @@ Here is some SLD examples what i'd used.
 All three point symbolizers pretty same, just difference in size and colour. 
 Just make sure that you put a smallest mark on the top and biggest on down.
 
-###Railroad
+Railroad
+---------------------
 
 ![Railroad](/blog/img/2014-06-14/rail-road.jpg "Railroad")
 
