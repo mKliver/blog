@@ -1,14 +1,14 @@
 # Site settings
 title: GIS blog
 description: "GIS blog"
-url: "https://mkliver.github.io/blog"
+url: "https://mkliver.github.io"
 author:
   name: "Max Kliver"
   email: "dh0m0ch@gmail.com"
   url: ""
 
 # Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: /blog/ # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
