@@ -1,6 +1,7 @@
 ---
 title: SLD Dash Line
 ---
+
 Simple dash line with mark in centre of each hatch.
 
 ![Schema](/blog/img/2018-07-28/2018-07-28-2.jpg "Schema")
@@ -45,15 +46,15 @@ Here is schema explain stype values:
 
 {% highlight %}
 
-__S1__, __D1__ - Stroke and Dash of line
-__S2__, __D2__ - Stroke and Dash of mark
-__offset__ - _stroke-dashoffset_ paremeter value
+S1, D1 - Stroke and Dash of line
+S2, D2 - Stroke and Dash of mark
+offset - stroke-dashoffset paremeter value
 
-__S1__, __D1__, __S2__ - is known values so lets find __D2__ and __offset__.
+S1, D1, S2 - is known values so lets find D2 and offset.
 
-__D2__ = 2(__S1__/2 - __S2__/2)+__D1__
+D2 = 2(S1/2 - S2/2)+D1
 
-__offset__ = S1/2 + S2/2 + D1
+offset = S1/2 + S2/2 + D1
 
 {% endhighlight %}
 
@@ -61,12 +62,12 @@ And solve it with values from schema
 
 {% highlight %}
 
-__S1__=40
-__D1__=10
-__D2__ = 5
+S1 =40
+D1 =10
+D2 = 5
 
-__D2__ = 2(40/2 - 5/2)+10
+D2 = 2(40/2 - 5/2)+10
 
-__offset__ = 20 + 5 + 10
+offset = 20 + 5 + 10
 
 {% endhighlight %}
