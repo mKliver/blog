@@ -42,6 +42,7 @@ A style:
 {% endhighlight %}
 
 Here is schema explain stype values:
+
 ![Schema](/blog/img/2018-07-24/2018-07-24-1.jpg "Schema")
 
 {% highlight xml %}
