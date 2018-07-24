@@ -44,7 +44,7 @@ A style:
 Here is schema explain stype values:
 ![Schema](/blog/img/2018-07-28/2018-07-28-1.jpg "Schema")
 
-{% highlight %}
+{% highlight xml %}
 
 S1, D1 - Stroke and Dash of line
 S2, D2 - Stroke and Dash of mark
@@ -60,7 +60,7 @@ offset = S1/2 + S2/2 + D1
 
 And solve it with values from schema
 
-{% highlight %}
+{% highlight xml %}
 
 S1 =40
 D1 =10
