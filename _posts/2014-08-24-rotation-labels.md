@@ -5,7 +5,7 @@ title: Labels rotation
 I needed to create SLD style for lines with labels rotated on angle equals line azimuth in start point of line.
 Like this:
 
-![Line rotation](/blog/img/2014-08-24/rotation-line.jpg "Line rotation")
+![Line rotation](/blog/img/2014-08-24/result-line.jpg "Line rotation")
 
 DB
 ---------------------
