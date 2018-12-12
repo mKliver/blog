@@ -50,6 +50,7 @@ Here is schema explain margin spacing:
 ![Schema](/blog/img/2017-12-06/2017-12-06_1.jpg "Schema")
 
 So how you see, i got a same length for each side of square for each figure.
+
 {% highlight c# %}
 	For yellow circle: 4+8+18=30
 	For red circle: 3+6+21=30
