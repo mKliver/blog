@@ -1,5 +1,6 @@
 ---
 title: SLD Graphic fills
+tags: [sld]
 ---
 This style contains fills with two size different graphics. 
 I'd founded 
