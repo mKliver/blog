@@ -3,43 +3,41 @@ title: SLD Graphic fills
 tags: [sld]
 ---
 This style contains fills with two size different graphics. 
-I'd founded 
-A style:
-{% highlight xml linenos %}
-
-	<PolygonSymbolizer>
-		<Fill>
-			<GraphicFill>
-				<Graphic>
-					<Mark>
-						<WellKnownName>circle</WellKnownName>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-width">1</CssParameter>
-						</Stroke>
-					</Mark>
-					<Size>8</Size>
-				</Graphic>
-			</GraphicFill>
-		</Fill>
-		<sld:VendorOption name="graphic-margin">18 18 4 4</sld:VendorOption>
-	</PolygonSymbolizer>
-	<PolygonSymbolizer>
-		<Fill>
-			<GraphicFill>
-				<Graphic>
-					<Mark>
-						<WellKnownName>circle</WellKnownName>
-						<Fill>
-							<CssParameter name="fill">#000000</CssParameter>
-						</Fill>
-					</Mark>
-					<Size>6</Size>
-				</Graphic>
-			</GraphicFill>
-		</Fill>
-		<sld:VendorOption name="graphic-margin">3 3 21 21</sld:VendorOption>
-	</PolygonSymbolizer>
+I'd founded a style:
+{% highlight xml %}
+<PolygonSymbolizer>
+	<Fill>
+		<GraphicFill>
+			<Graphic>
+				<Mark>
+					<WellKnownName>circle</WellKnownName>
+					<Stroke>
+						<CssParameter name="stroke">#000000</CssParameter>
+						<CssParameter name="stroke-width">1</CssParameter>
+					</Stroke>
+				</Mark>
+				<Size>8</Size>
+			</Graphic>
+		</GraphicFill>
+	</Fill>
+	<sld:VendorOption name="graphic-margin">18 18 4 4</sld:VendorOption>
+</PolygonSymbolizer>
+<PolygonSymbolizer>
+	<Fill>
+		<GraphicFill>
+			<Graphic>
+				<Mark>
+					<WellKnownName>circle</WellKnownName>
+					<Fill>
+						<CssParameter name="fill">#000000</CssParameter>
+					</Fill>
+				</Mark>
+				<Size>6</Size>
+			</Graphic>
+		</GraphicFill>
+	</Fill>
+	<sld:VendorOption name="graphic-margin">3 3 21 21</sld:VendorOption>
+</PolygonSymbolizer>
 
 {% endhighlight %}
 
