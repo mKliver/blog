@@ -1,5 +1,6 @@
 ---
 title: Mapserver+nginx+FastCGI on Ubuntu
+tags: [mapserver, nginx, linux]
 ---
 
 I'm new with Linux. But try to tell how to start with Mapserver on Ubuntu. 
