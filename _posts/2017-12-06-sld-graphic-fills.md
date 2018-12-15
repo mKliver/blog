@@ -4,7 +4,7 @@ tags: [sld]
 ---
 This style contains fills with two size different graphics. 
 I'd founded a style:
-{% highlight xml %}
+````
 <PolygonSymbolizer>
 	<Fill>
 		<GraphicFill>
@@ -39,7 +39,7 @@ I'd founded a style:
 	<sld:VendorOption name="graphic-margin">3 3 21 21</sld:VendorOption>
 </PolygonSymbolizer>
 
-{% endhighlight %}
+````
 
 Here is two _PolygonSymbolizer_ with different circles inside.  
 Main part of style is _VendorOption name="graphic-margin"_ tag. Its allows add space around graphics.
@@ -51,10 +51,10 @@ Here is schema explain margin spacing:
 
 So how you see, i got a same length for each side of square for each figure.
 
-{% highlight c++ %}
+````
 	For yellow circle: 4+8+18=30
 	For red circle: 3+6+21=30
-{% endhighlight %}
+````
 
 And the result:
 ![Result style](/blog/img/2017-12-06/2017-12-06_2.png "Result style")
