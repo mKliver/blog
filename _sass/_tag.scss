@@ -17,7 +17,7 @@
     background: $theme-color;
     color: $white;
   }
-  @include transition(all .1s ease-in-out);
+  /*@include transition(all .1s ease-in-out);*/
 }
 
 .tags-expo {
@@ -41,7 +41,7 @@
       list-style-position: inside;
       padding: 0;
       li {
-        @include transition(all .1s ease-in-out);
+        /*@include transition(all .1s ease-in-out);*/
         padding: 0 1rem;
         &:hover {
           list-style-type: disc;
