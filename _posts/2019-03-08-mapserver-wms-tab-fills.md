@@ -1,5 +1,5 @@
 ---
-title: Публикация TAB на Mapserver
+title: Автоматическая стилизация TAB файлов на Mapserver. Заливки.
 tags: [mapserver, mapinfo]
 ---
 Ранее я повторил опыт из документации Mapserver, и опубликовал tab файлы в надежде, что Mapserver их сам автоматически стилизует.
